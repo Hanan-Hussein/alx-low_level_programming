@@ -2,11 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 
-
-/**                                                                                                                                     
- * main - Entry point                                                                                                                   
- * Return:Displays Last digit                                                                                    
- */ 
+/**
+ * main - Entry point
+ * Return:This returns last digit
+ */
 int main(void)
 {
 int n;
