@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
  *  main-Entry point
- *  Returns positive 0 or negative no
-*/
+ *  Returns positive 0 or negative number
+ */
 int main(void)
 {
 int n;
