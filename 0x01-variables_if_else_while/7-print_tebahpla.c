@@ -4,7 +4,7 @@
 
 /**
  * main - Entry point
- * Returns: alphabets in lower case reverse order
+ * Return: alphabets in lower case reverse order
  */
 int main(void)
 {
