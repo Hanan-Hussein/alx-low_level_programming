@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * print_alphabet_x10 - prints alphabet 10 times
+ * _islower - checks if lower
  *
- * Return: Always 0.
+ * Return: return 1 if lower or 0
  */
-int _islower (int a)
+int _islower(int a)
 {
 	if (a >= 'a' && a < 'z')
 	{
