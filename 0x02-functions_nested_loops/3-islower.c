@@ -2,7 +2,7 @@
 
 /**
  * _islower - checks if lower
- *@c: char entered
+ *@a: char entered
  * Return: return 1 if lower or 0
  */
 int _islower(int a)
