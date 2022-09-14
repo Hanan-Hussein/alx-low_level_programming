@@ -5,7 +5,7 @@
  *
  * Return: Always 0.
  */
-int _islower(int a)
+int _islower (int a)
 {
 	if (a >= 'a' && a < 'z')
 	{
