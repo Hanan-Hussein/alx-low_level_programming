@@ -1,21 +1,17 @@
 #include <stdio.h>
 
 /**
-* more_numbers - check the code
+* print_line - draws a straight line in the terminal.
+* @n: input number of times to print '_'
 */
-void more_numbers(void)
+void print_line(int n)
 {
 int x;
-int j;
 
-for (x = 0; x <= 9; x++)
+if (n > 0)
 {
-for (j = 0; j <= 14; j++)
-{
-if (j > 9)
-putchar((j / 10) + '0');
-putchar((j % 10) + '0');
+for (x = 0; x < n; x++)
+putchar(95);
 }
 putchar('\n');
-}
 }
