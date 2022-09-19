@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_rev - prints in reverse
@@ -16,7 +17,7 @@ x++;
 
 for (x = x - 1; x >= 0; x--)
 {
-_putchar(s[x]);
+putchar(s[x]);
 }
-_putchar('\n');
+putchar('\n');
 }
