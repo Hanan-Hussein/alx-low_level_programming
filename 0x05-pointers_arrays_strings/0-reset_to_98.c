@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * void reset_to_98 - sets value to 98
+ *reset_to_98 - sets value to 98
+ *@n: int type pointer
  *
  * Return: Always 0.
  */
