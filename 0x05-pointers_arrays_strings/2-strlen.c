@@ -5,7 +5,6 @@
 /**
  * _strlen - finds length of string
  * @str: string parameter
- * @b: second integer
  * Return: string length
  */
 int _strlen(char *str)
