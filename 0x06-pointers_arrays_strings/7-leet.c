@@ -1,36 +1,28 @@
-#include <stdio.h>
-#include <string.h>
+#include "main.h"
+
 /**
- * *leet - check the code for
+ * leet - transform to leet
+ * @s: char array string type
  *
- * Return: Always 0.
+ * Return: s transformed
  */
-char *leet(char *n)
+
+char *leet(char *s)
 {
-    size_t i;
-    
-    for (i = 0; i < strlen(n); i++)
-    {
-        if (n[i] == 'a' || n[i] == 'A')
-        {
-            n[i] = 52;
-        }
-        else if (n[i] == 'e' || n[i] == 'E')
-        {
-            n[i] = 51;
-        }
-        else if (n[i] == 'o' || n[i] == 'O')
-        {
-             n[i] = 48;
-        }
-        else if (n[i] == 't' || n[i] == 'T')
-        {
-            n[i] = 55;
-        }
-        else if (n[i] == 'l' || n[i] == 'L')
-        {
-            n[i] = 49;
-        }
-    }
-    return (n);
+	int i = 0, ii;
+	char leet[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
+
+	while (s[i])
+	{
+		for (ii = 0; ii <= 7; ii++)
+		{
+			if (s[i] == leet[ii] ||
+					s[i] - 32 == leet[ii])
+				s[i] = ii + '0';
+		}
+
+		i++;
+	}
+
+	return (s);
 }
