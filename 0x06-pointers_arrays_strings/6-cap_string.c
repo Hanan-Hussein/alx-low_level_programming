@@ -13,5 +13,5 @@ size_t i;
             continue;
         }
     }
-    return(0);
+    return(n);
 }

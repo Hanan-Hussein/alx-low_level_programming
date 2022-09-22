@@ -32,5 +32,5 @@ char *leet(char *n)
             n[i] = 49;
         }
     }
-    return (0);
+    return (n);
 }
