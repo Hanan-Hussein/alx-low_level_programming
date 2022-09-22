@@ -7,7 +7,7 @@
  */
 char *leet(char *n)
 {
-    int i;
+    size_t i;
     
     for (i = 0; i < strlen(n); i++)
     {
@@ -29,7 +29,7 @@ char *leet(char *n)
         }
         else if (n[i] == 'l' || n[i] == 'L')
         {
-            n[i] == 49;
+            n[i] = 49;
         }
     }
     return (0);
