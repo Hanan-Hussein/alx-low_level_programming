@@ -3,9 +3,9 @@
 /**
  * free_grid - frees a grid
  *
- * **grid - Pointer to the grid
- * 
- * @height - height of the grid
+ * @grid: Pointer to the grid
+ *
+ * @height: height of the grid
  */
 
 void free_grid(int **grid, int height)
